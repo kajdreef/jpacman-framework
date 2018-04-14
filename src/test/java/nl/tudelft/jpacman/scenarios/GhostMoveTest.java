@@ -171,7 +171,7 @@ public class GhostMoveTest {
         Thread.sleep(2*ghost.getInterval());
 
 //        Then the ghost can move to the player,
-//        assertFalse(ghostLoc != ghost.getSquare());
+        assertTrue( ghost.getSquare() == pacman.getSquare());
 //        and the game is over.
         assertFalse(game.isInProgress());
         assertFalse(pacman.isAlive());
