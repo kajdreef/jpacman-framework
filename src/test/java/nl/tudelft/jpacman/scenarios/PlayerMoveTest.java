@@ -60,7 +60,6 @@ public class PlayerMoveTest {
         assertTrue(destination.getOccupants().size() == 1);
 
         launcher.dispose();
-
     }
 
     /**
@@ -121,7 +120,6 @@ public class PlayerMoveTest {
         assertTrue(location1.equals(location2));
 
         launcher.dispose();
-
     }
 
 
